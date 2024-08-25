@@ -43,4 +43,10 @@ describe('bc', () => {
         bc.replaceChain(bc2.chain)
         expect(bc.chain).toEqual(bc2.chain)
     })
+
+    it('does not replace the chain with one of less than or equal to length', () => {
+        bc.addBlock('200U$')
+        bc.replaceChain(bc2.chain)
+        expect(bc.chain).not.toEqual(bc2.chain)
+    })
 })
