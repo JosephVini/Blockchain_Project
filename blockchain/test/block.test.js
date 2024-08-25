@@ -1,4 +1,4 @@
-const Block = require('../../app/block')
+const Block = require('../block')
 
 describe('Block', () => {
 

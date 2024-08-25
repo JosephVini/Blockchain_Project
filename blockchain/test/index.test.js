@@ -1,6 +1,5 @@
-const Block = require('../../app/block')
-const Blockchain = require('../../app/Blockchain')
-const bc = require('../../app/Blockchain')
+const Block = require('../block')
+const Blockchain = require('../index')
 
 describe('bc', () => {
     let bc
