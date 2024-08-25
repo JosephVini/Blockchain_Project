@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "test": "jest --watchALL"
+    "test": "jest --watchALL",
+    "start": "node ./app",
+    "dev": "node ./app"
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
