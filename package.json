@@ -6,7 +6,9 @@
   },
   "dependencies": {
     "crypto-js": "^4.2.0",
+    "elliptic": "^6.5.7",
     "express": "^4.19.2",
+    "uuid": "^10.0.0",
     "ws": "^8.18.0"
   },
   "devDependencies": {
